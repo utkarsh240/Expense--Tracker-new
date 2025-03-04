@@ -1,12 +1,12 @@
 # Expense Tracker
 
-Node.js + Express + MongoDB expense tracking app with EJS and React.
+Node.js + Express + MongoDB expense tracking app with React.
 
 ## Setup
 
 1. **Install:**
    ```bash
-   git clone <repo>
+   git clone https://github.com/utkarsh240/Expense-Tracker.git
    cd backend && npm install
    cd ../frontend && npm install
    ```
@@ -36,6 +36,5 @@ Visit `http://localhost:5000`
 ## Troubleshooting
 - Check MongoDB connection
 - Use port 5000, not 3000
-
-This shortened README provides concise instructions for setting up and running the application. It covers the essential steps, prerequisites, and basic usage, along with troubleshooting for common issues. It's ideal for users who want a quick start guide.
+- CORS error? Add `Access-Control-Allow-Origin: http://localhost:3000` to `backend/index.js`
 
