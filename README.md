@@ -27,7 +27,7 @@ Node.js + Express + MongoDB expense tracking app with React.
    cd frontend && npm start
    ```
 
-Visit `http://localhost:5000`
+Visit `http://localhost:3000`
 
 ## Features
 - Add/filter expenses
@@ -35,6 +35,6 @@ Visit `http://localhost:5000`
 
 ## Troubleshooting
 - Check MongoDB connection
-- Use port 5000, not 3000
+- Use port 3000
 - CORS error? Add `Access-Control-Allow-Origin: http://localhost:3000` to `backend/index.js`
 
